@@ -132,7 +132,8 @@
     "cypress": "./node_modules/.bin/cypress run --browser chrome",
     "cypress-gitlab": "start-server-and-test start http-get://localhost:3000 cypress",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token gb9nrdyzl8b"
   },
   "jest": {
     "collectCoverageFrom": [
